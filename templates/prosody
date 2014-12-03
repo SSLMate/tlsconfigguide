@@ -1,0 +1,4 @@
+ssl = {
+	key = "__KEY_PATH__";
+	certificate = "__CHAINED_PATH__";
+}

@@ -1,0 +1,2 @@
+ssl_key = <__KEY_PATH__
+ssl_cert = <__CHAINED_PATH__
