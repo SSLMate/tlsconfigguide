@@ -1,0 +1,30 @@
+This repository contains templates of configuration directives to
+configure SSL certificates with different server software.  These
+templates are used to power the config guides used by SSLMate <https://sslmate.com>
+and <https://whatsmychaincert.com>.
+
+The templates are found, one per file, in the templates/ directory,
+and an index of available templates is in templates.index.
+
+The following strings are replaced when interpolating the template:
+
+	__KEY_PATH__		path to the private key file
+	__CERT_PATH__		path to the certificate file
+	__CHAIN_PATH__		path to the chain certificate file
+	__CHAINED_PATH__	path to file containing concatenation of certificate and chain
+
+The format of templates.index is one template per line, where each line
+has the following syntax:
+
+	name SP title
+
+where name corresponds to the name of the template file in the templates
+directory, title is a friendly human-readable title, and SP is one or
+more whitespace characters.
+
+At the moment, these configuration templates contain only the directives
+necessary to configure a certificate.  In the future, recommended cipher
+and protocol settings will also be included.
+
+Copyright (C) 2014 Opsmate, Inc.
+Licensed under the MIT/X11 license (see COPYING for details)
