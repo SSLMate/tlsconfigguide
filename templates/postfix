@@ -1,2 +1,4 @@
+smtp_tls_security_level = may
+smtpd_tls_security_level = may
 smtpd_tls_key_file = __KEY_PATH__
 smtpd_tls_cert_file = __CHAINED_PATH__
