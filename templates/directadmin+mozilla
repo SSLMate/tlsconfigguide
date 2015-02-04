@@ -11,7 +11,8 @@
 
 # If you don't have admin access to DirectAdmin, you can paste the cert, 
 # chain and key into the "SSL Certificates" form; both the key and the 
-# "chained" file contents into the "Paste a pre-generated certificate and key" field.
+# host cert into the "Paste a pre-generated certificate and key" field, 
+# and the chain into the form at "Click Here to paste a CA Root Certificate".
 
 # Recommended security settings from https://wiki.mozilla.org/Security/Server_Side_TLS
 SSLProtocol all -SSLv2 -SSLv3
