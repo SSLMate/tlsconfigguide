@@ -1,2 +1,3 @@
+ssl on;
 ssl_certificate_key __KEY_PATH__;
 ssl_certificate __CHAINED_PATH__;

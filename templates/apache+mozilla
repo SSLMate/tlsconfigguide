@@ -1,3 +1,4 @@
+SSLEngine on
 SSLCertificateKeyFile __KEY_PATH__
 SSLCertificateFile __CERT_PATH__
 SSLCertificateChainFile __CHAIN_PATH__
