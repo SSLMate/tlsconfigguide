@@ -1,5 +1,6 @@
 apache		Apache
 nginx		nginx
+lighttpd	Lighttpd
 stunnel		stunnel
 titus		titus
 dovecot2	Dovecot 2
