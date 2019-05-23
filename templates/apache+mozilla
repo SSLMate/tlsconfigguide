@@ -1,7 +1,6 @@
 SSLEngine on
 SSLCertificateKeyFile __KEY_PATH__
-SSLCertificateFile __CERT_PATH__
-SSLCertificateChainFile __CHAIN_PATH__
+SSLCertificateFile __CHAINED_PATH__
 
 # Recommended security settings from https://wiki.mozilla.org/Security/Server_Side_TLS
 SSLProtocol all -SSLv2 -SSLv3
