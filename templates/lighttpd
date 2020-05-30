@@ -1,3 +1,2 @@
 ssl.engine = "enable"
 ssl.pemfile = "__COMBINED_PATH__"
-ssl.ca-file = "__CHAIN_PATH__"
